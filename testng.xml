@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<test thread-count="5" name="Test">
+		<parameter name="Author" value="Kavish"></parameter>
+		<classes>
+			<class name="com.kavi.demo.TestCases.Loop">
+				<methods>
+					<include name="Repeat"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
