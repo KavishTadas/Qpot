@@ -1,4 +1,4 @@
-package com.kavi.demo.PageObjects;
+package com.demo.TaskManagement.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
